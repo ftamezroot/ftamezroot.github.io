@@ -27,7 +27,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">Fabio Tamez</a>
-        <a href="maito:fabio.tamez@gmail.com"><img src="img/email.png" width="20" alt="Email" title="Email"></a>
+        <a href="mailto:fabio.tamez@gmail.com"><img src="img/email.png" width="20" alt="Email" title="Email"></a>
         <a href="https://github.com/ftamezroot"><img src="img/github.png" width="20" alt="Github" title="Github"></a>
         <a href="https://hub.docker.com/repositories/ftamez"><img src="img/docker.png" width="20" alt="Docker" title="Docker"></a>
         <a href="https://www.linkedin.com/in/fabio-tamez-39532118/"><img src="img/linkedin.png" width="20" alt="LinkedIn" title="LinkedIn"></a>
@@ -64,6 +64,7 @@
 
 <div class="container mb-3">
     <h3 id="Portfolio">Portfolio</h3>
+    <button class="btn btn-danger btn-sm" onclick="stopCarousel()">Stop Carousel</button>
 </div>
 
 <div class="container mt-5">
@@ -226,12 +227,21 @@
       alert('Hello! This is an example of interactivity with JavaScript.');
     });
 
-    // Toggle para el modo oscuro
+    // Toggle darkness
     $(function() {
       $('#darkModeToggle').change(function() {
         $('body').toggleClass('dark-mode', $(this).prop('checked'));
       });
     });
+
+    // Stop carousel
+    var cardCarousel = document.getElementById('cardCarousel');
+
+    // Function to stop carousel
+    function stopCarousel() {
+        // Detiene el carrusel
+        $(cardCarousel).carousel('pause');
+    }
   </script>
 
 </body>
