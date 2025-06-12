@@ -2,13 +2,3 @@ my_order,Description,Current_A1,Color_A1,Current_A2,Color_A2
 14,Presión de hidrógeno,26,red,26,red
 15,Flujo de hidrógeno,26,red,10,NULL
 16,Presión de nitrógeno,26,red,26,red
-17,Flujo de nitrógeno,26,red,"2,100",red
-18,Temperatura zona #1,27,red,"1,190",NULL
-19,Temperatura zona #2,"1,224",NULL,"1,224",NULL
-20,Temperatura zona #3,"1,200",NULL,"1,160",NULL
-21,Posición superior TDC,335,NULL,335,NULL
-22,Posición de impacto BDC,29,NULL,30,NULL
-23,Velocidad de desplazamiento,500,NULL,420,red
-24,Presión de unidad hidráulica,26,red,"1,785",NULL
-25,Flujo de boquillas superiores,26,red,11,NULL
-26,Flujo de boquilla inferior,26,NULL,29,NULL
