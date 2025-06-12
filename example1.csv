@@ -1,8 +1,9 @@
-﻿14,Presión de hidrógeno,14,20,26,1,red,26,1,red,2
+my_order,Description,Min,Max,Current_A1,fuera_de_rango_A1,Color_A1,Current_A2,fuera_de_rango_A2,Color_A2,fuera_de_rango
+14,Presión de hidrógeno,14,20,26,1,red,26,1,red,2
 15,Flujo de hidrógeno,5,25,26,1,red,10,0,NULL,1
-16,Presión de nitrógeno,28,32,26,1,red,25,1,red,2
-17,Flujo de nitrógeno,"2,250","3,000","2,900",0,NULL,"2,100",1,red,1
-18,Temperatura zona #1,"1,160","1,200","1,190",0,NULL,"1,190",0,NULL,0
+16,Presión de nitrógeno,28,32,26,1,red,26,1,red,2
+17,Flujo de nitrógeno,"2,250","3,000",26,1,red,"2,100",1,red,2
+18,Temperatura zona #1,"1,160","1,200",27,1,red,"1,190",0,NULL,1
 19,Temperatura zona #2,"1,204","1,244","1,224",0,NULL,"1,224",0,NULL,0
 20,Temperatura zona #3,"1,160","1,200","1,200",0,NULL,"1,160",0,NULL,0
 21,Posición superior TDC,325,355,335,0,NULL,335,0,NULL,0
